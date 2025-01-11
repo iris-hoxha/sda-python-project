@@ -23,8 +23,9 @@ client_cash_balance = 20.5
 client_card_balance = 10
 client_bag = []
 
-print(f"Welcome to {name} {type}!")
 
+print(f"Welcome to {name} {type}!")
+print ("ffvfvgbg")
 
 service = 0
 while service != 1 and service != 2:
