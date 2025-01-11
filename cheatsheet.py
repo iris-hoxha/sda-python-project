@@ -77,6 +77,8 @@ print("==================== OPERATORET LOGJIKE bool (and / or / not) ===========
 # LIDHJET LOGJIKE (and / or / not)
 has_money: bool = True
 has_card: bool = False
+
+
 print(f"has_money: {has_money}, has_card: {has_card}")
 
 if has_money:

@@ -9,7 +9,7 @@ daily_sales: float= 0
 is_reserved: bool = False
 main_menu: list[str]= ["Meat","Fish","Finger food"]
 
-meat: list[str] = ["Steak", "Chicken", "Beef"]
+meat: list[str] = ["Steak", "Chicken", "Beef", "test",]
 meat_prices: list[float] = [12.5, 9.0, 8.5]
 fish: list[str] = ["Salmon", "Shrimp", "Fish"]
 fish_prices: list[float] = [15.0, 12.0, 14.0]
@@ -24,8 +24,7 @@ client_card_balance = 10
 client_bag = []
 
 print(f"Welcome to {name} {type}!")
-print("1.Reserve your Table")
-print("2.Order your Dinner")
+
 
 service = 0
 while service != 1 and service != 2:
